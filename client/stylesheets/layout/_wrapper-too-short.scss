@@ -1,0 +1,27 @@
+.wrapper-too-short {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  color: #fff;
+
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    line-height: 2.5em;
+    padding: 0 2em;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}

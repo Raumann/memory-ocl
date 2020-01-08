@@ -1,0 +1,29 @@
+// Importation de l'ensemble des fichiers scss
+@import
+  'abstracts/variables';
+
+@import
+  'base/reset',
+  'base/base';
+
+@import
+  'components/best-score-list',
+  'components/btn',
+  'components/cards',
+  'components/card-item',
+  'components/card-row',
+  'components/endgame',
+  'components/endgame-wrapper',
+  'components/player',
+  'components/progressbar',
+  'components/progressbar-container',
+  'components/progressbar-item',
+  'components/table';
+
+@import
+  'layout/main',
+  'layout/wrapper',
+  'layout/wrapper-too-short'; 
+
+@import
+  'shame';

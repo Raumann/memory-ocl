@@ -1,0 +1,44 @@
+.endgame-wrapper {
+  padding: 2em;
+  color: #000;
+  background-color: white;
+  border-radius: 10px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  &__message {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  &__detail {
+    margin-bottom: 1.5em;
+  }
+  
+  &__save-message {
+    font-size: .8em;
+    margin-bottom: .5em;
+    color: lighten(#000, 70%);
+    font-style: italic;
+  }
+
+  &__form {
+
+    label {
+      font-size: .9em;
+      margin-right: .5em;
+    }
+
+    &__action {
+      margin-top: 1em;
+
+      button {
+        margin: 0 .5em;
+      }
+    }
+  }
+}

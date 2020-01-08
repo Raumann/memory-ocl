@@ -1,0 +1,19 @@
+.table {
+  width: 60%;
+
+  thead tr th,
+  tbody tr td {
+    width: 22%;
+    padding: 1em 0; /* alternative => line-height: ...em; */
+    border-bottom: 1px solid #fff;
+  }
+
+  tbody tr td {
+    border-bottom: 1px dashed #fff;
+  }
+
+  thead tr th:first-child,
+  tbody tr td:first-child {
+    width: 10%;
+  }
+}
