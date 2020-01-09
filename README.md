@@ -9,7 +9,7 @@ J'ai développé ce petit jeu afin de mettre en pratique un certain nombre de me
 
 > Ensuite, vous trouverez le fichier `memory.sql` qui vous permettra de créer votre base de données.
 
-> Et enfin, n'oubliez pas de modifier le fichier de configuration de la base de données dans le dossier app.
+> Et enfin, n'oubliez pas de créer le fichier de configuration de la base de données dans le dossier app (voir `app/dbconfig.dist.conf` pour exemple).
 
 ### Technologies utilisées
 
