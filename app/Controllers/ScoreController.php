@@ -2,7 +2,6 @@
 
 namespace memory\Controllers;
 
-use memory\Utils\DBData;
 use memory\Models\ScoreModel;
 
 class ScoreController extends CoreController
